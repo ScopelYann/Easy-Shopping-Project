@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.content-info{
+    margin: 151px 0 0 125px;
+    display: inline-block;
+}
+.content-img{
+    position: fixed;
+    top: 170px;
+    left: 840px;
+}
+.mascara{
+    background: #5D5D7D;
+    width: 439px;
+    height: 901px;
+    z-index: -1;
+    position: fixed;
+    opacity: 16%;
+    top: 0;
+    right: 0;
+
+}
+.menu{
+    position: relative;
+    left:930px;
+    margin: 0 0 0 41px;
+    text-decoration: none;
+    color: #5D5D7D;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    
+}
+.menu:nth-child(2){
+    color:#8888b3;
+    opacity: 40%;
+}
+
+h1{
+    width: 60%;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #5D5D7D;
+}
+p{
+    width: 400px;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 10px 0 0 0;
+    color: #5D5D7D;
+    opacity: 60%;
+}
+
+button{
+    margin: 12px 0 0 0;
+    background:#9499EA;
+    border: #9499EA;
+    outline: none;
+    box-shadow: 0px 10px 23px 0px #9498eab4;
+    width: 14%;
+    height: 42px;
+    border-radius: 32px;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width:500px){
+
+html{
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+ h1{
+    position: absolute;
+    top: 58px;
+    left: 75px;
+    width: 228px;
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+p{
+    position: absolute;
+    top: 177px;
+    left: 66px;
+    width: 256px;
+    height:96px;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+button{
+    position: absolute;
+    width: 229px;
+    height: 42px;
+    top: 288px;
+    left: 79px;
+
+}
+.content-img{
+    position: absolute;
+    width: 271px;
+    height: 322.95px;
+    top: 443px;
+    left: 41px;
+    padding: 0px, 0px, 0px, 0px;
+}
+.mascara{
+    position: absolute;
+    width: 100vw;
+    height: 415px;
+    top: 397px;
+    opacity: 0.16px;
+}
+.menu{
+    display: none;
+}
+
+}
+
